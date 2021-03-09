@@ -1,0 +1,127 @@
+
+.bg	{
+	
+		position: relative;
+	
+}
+
+.faint	{
+	
+	position: absolute;
+	overflow: hidden;
+	opacity: 0.4;
+	height:100vh;
+	width:80vw;
+	background-size: 100% 100%;
+	background-repeat:no-repeat;	
+	
+}
+
+.main	{
+	
+	margin-left:10%;
+	
+}
+
+.emilis	{
+	
+	font-family: 'Dancing Script', cursive;
+	font-weight:bold;
+		
+}
+
+.emilis h1, h2{
+	
+	color:red;	
+	font-size:46px;
+	
+}
+
+.emilis h2{
+	
+	color:red;	
+	font-size:36px;
+	
+}
+
+nav	{
+	
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 5px;
+	
+}
+
+.miser	{
+	
+	display: flex;
+	
+}
+
+
+.mas	{
+	
+	
+	position: relative;
+	height: 250px;
+	
+}
+
+.sus	{
+	
+	
+	position: relative;
+	height: 250px;
+	margin-left: 40%;
+	
+}
+
+.sus2	{
+	
+	
+	position: relative;
+	margin-left: 55%;
+	
+}
+
+
+.button {
+  
+  border: none;
+  border-radius: 0;
+  margin: 1em;
+  background-color: transparent;
+  color: #333333;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  letter-spacing: 3px;
+  padding: 8px 12px 8px 14px;
+  font-weight: 400;
+
+}
+
+
+ .button:hover {
+	 
+  outline: 0;
+  background-color: black;
+  text-decoration: none;
+  color: red;
+}
+
+a:link, a:visited, a:active, a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr	{
+
+background-color: black;
+height: 2px;
+width: 40%;
+
+
+}
+
+
