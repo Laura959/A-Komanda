@@ -1,3 +1,92 @@
 body {
+    width: 80%;
+    margin: auto;
+    background-image: url(decor_metal.jpg);
+}
 
+h1, h3, p {
+    color: white;
+}
+
+input{
+    background-color: rgb(191, 190, 187);
+    height: 30px;
+    width: 350px;
+    color: white;
+    font-weight: bold;
+    padding-left: 1%;
+    margin-top: 3%;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+input:focus {
+    border: 5px solid rgb(216, 178, 52);
+}
+
+p {
+    font-size: 25px;
+}
+
+.main {
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+article p:first-child::first-line {
+    color: rgb(216, 178, 52);
+    font-weight: bold;
+}
+
+article p:last-child {
+    color: rgb(204, 178, 71);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline-block;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+nav a:first-child {
+    padding-left: 25%;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rgb(255, 204, 0);
+    margin-top: -0.2%;
+}
+
+a:link {
+    color: rgb(89, 73, 80);
+}
+
+a:visited {
+    color: rgb(79, 77, 72);
+}
+
+a:hover {
+    color:  rgb(211, 173, 77);
+}
+
+a:active {
+    color:  rgb(58, 58, 57);
+}
+
+.selection::selection{
+    color:rgb(204, 178, 71);
 }
